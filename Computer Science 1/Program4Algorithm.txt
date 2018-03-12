@@ -1,0 +1,8 @@
+I need my program to ask the user for a password. If the password
+is not strong enough, it needs to print an error and ask the user
+for another password and update an error counting variable by 1.
+That variable starts at 0. If it reaches 4 and the user has not
+yet entered an acceptable password, it prints an error that the
+user has run out of tries; else, if the user enters a password
+that meets all security standards at any point, it prints a
+message saying that the password is acceptable.

@@ -1,0 +1,63 @@
+// Midterm Review -CS1- Seth Miller
+
+
+// Exercise 5- UML and Object-Oriented Design
+
+package midtermReview;
+
+public class Clock
+{
+	private int hrs;
+	private int min;
+
+	public Clock( )
+	{
+		clockTime = "";
+	}
+
+	public Clock( int startHrs, int startMin )
+	{
+		setHrs( startHrs );
+		setMin( startMin );
+	}
+
+	public void setHrs( int h )
+	{
+		hrs = h;
+	}
+
+	public void setMin( int m )
+	{
+		min = m;
+	}
+
+	public int getHrs( )
+	{
+		return hrs;
+	}
+
+	public int getMin( )
+	{
+		return min;
+	}
+
+} // end of public class Clock
+
+
+// Exercise 6- Object-Oriented Programming
+
+package midtermReview;
+
+public class CannedGoods
+{
+	private String foodType;
+	private double price;
+
+	public CannedGoods( )
+	{
+		foodType = "";
+		price = 0.00;
+	}
+
+	
+}
