@@ -1,0 +1,86 @@
+// Lab 10 Postlab- CIS 1144
+// Seth Miller
+
+// Problem 50
+
+public int productArrayElements( int[]array )
+{
+	int product = 1;
+
+	for ( int i = 0; i < array.length; i++ )
+	{
+		product = product * array[i];	
+	}
+	
+	return product;
+}
+
+// Problem 51
+
+public void setArrayElementsToZero( int[]array )
+{
+	for ( int i = 0; i < array.length; i++ )
+	{
+		array[i] = 0;
+	}
+}
+
+// Problem 52
+
+public void setArrayElementsToDouble( float[]array )
+{
+	for ( int i = 0; i < array.length; i++ )
+	{
+		array[i] = array[i] * 2;
+	}
+}
+
+// Problem 53
+
+public int getGoodGrades( int[]array )
+{
+	int count = 0;
+	int gradesabove90 = 0;
+	for ( int i = 0; i < array.length; i++ )
+	{
+		if ( array[i] >= 90 )
+			gradesabove90++;
+		count++
+	}
+
+	double percentage = ( gradesabove90 / count ) * 100;
+	return percentage
+}
+
+// Problem 56
+
+public double getPercentageTrue( boolean[]array )
+{
+	int count = 0;
+	int trueCount = 0;
+
+	for ( int i = 0; i < array.length; i++ )
+	{
+		if ( array[i] = true )
+			trueCount += 1;
+		count++;
+	}
+
+	double percentage = ( trueCount/count ) * 100;
+	return percentage;
+}
+
+// Problem 61
+
+public boolean getPerfectPlusGrades( int[]array )
+{
+	boolean [] perfectGrades = new boolean[array.length];
+	for ( int i = 0; i < array.length; i++ )
+	{
+		if ( array[i] < 100 )
+			perfectGrades[i] = false;
+		else
+			perfectGrades[i] = true;
+	}
+	return perfectGrades;
+}
