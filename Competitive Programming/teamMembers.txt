@@ -1,0 +1,7 @@
+These programs were written by a team I was in as part of the Southwest Baptist University Competitive Programming Team.
+
+Past or current team members:
+- Michael Buxbaum
+- Andrew Smith
+- Nathan Hooper
+- Maximillian Stoner
