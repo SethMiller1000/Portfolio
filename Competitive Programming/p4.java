@@ -8,40 +8,33 @@ public class p4 {
         int dif = s.nextInt();
         int [] array = new int [num];
         int temp = num;
-
-        while( temp > 0 )
+        while(temp>0)
         {
-            array[ temp-1 ]= s.nextInt();
-            //System.out.println( temp );
+            array[temp-1]=s.nextInt();
+            //System.out.println(temp);
             temp--;
-
-        }// end of while ( temp > 0 )
-
+        }
         String returnS = "";
         int max = 0;
-
-        for( int i=1; i < array.length; i++ )
-            max = Math.max( max, Math.abs( array[ i-1 ]-array[i] ) );
+        for(int i=1;i<array.length;i++)
+            max = Math.max(max, Math.abs(array[i-1]-array[i]));
                 
-        if( max >= dif )
-            returnS += "BUMPY ";
+        if(max>=dif)
+            returnS+="BUMPY ";
         else
-            returnS += "SMOOTH ";
+            returnS+="SMOOTH ";
         
-        for( int i = num; i < 0; i-- )
+        for(int i = num;i<0;i--)
         {
-            for( int j = 0; j < i; j++ )
+            for(int j = 0;j<i;j++)
             {
-                if( array[j] > array[i] )
+                if(array[j]>array[i])
                 {
                     int temp1 = i;
-                    array[i] = j;
-                    array[j] = temp1;
-
-                }// end of if ( array[j] > array[i] )
-
-            }// end of for( int j = 0; j < i; j++ )
-
+                    array[i]=j;
+                    array[j]= temp1;
+                }
+            }
         }
         
         max = 0;

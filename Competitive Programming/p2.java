@@ -62,15 +62,15 @@ public class p2 // Space Oddity
                 
             }// end of else if ( scan.nextLine().contains( "Move" ) )
             
-        if( ( ( x % 2 == 0 )&&( y % 2 != 0 ) ) || ( ( x%2 != 0 ) && ( y%2 == 0 ) ) )
+        if( ( ( x % 2 == 0 )&&( y % 2 != 0 ) ) || ( ( x%2 !=0 ) && ( y%2 == 0 ) ) )
         {
-            System.out.println( "SAFE" );
+            System.out.println("SAFE");
             
         }// end of if
         
         else
         {
-            System.out.println( "UNSAFE" );
+            System.out.println("UNSAFE");
             
         }// end of else
         
