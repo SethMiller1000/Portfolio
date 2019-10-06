@@ -1,0 +1,21 @@
+t = av^4 + bv^3 + cv^2 +dv
+t = v( av^3 + bv^2 + cv + d )
+t = v^2( av^2 + bv + c + d/v )
+t = v^3( av + b + c/v + d/(v^2) )
+t = v^4( a + b/v + c/(v^2) + d/(v^3) )
+t/(v^4) = a + b/v + c/(v^2) + d/(v^3) )
+
+tv^(1/4) = av^(0) + bv^(-1) + cv^(1/2) + dv^(1/3)
+t( v^(1/4) ) = a( v^(0) ) + b( v^(-1) ) + c( v^(1/2) ) + d( v^(1/3) )
+
+*** New solution ***
+t = av^4 + bv^3 + cv^2 +dv
+t = v( av^3 + bv^2 + cv + d )
+t/v = av^3 + bv^2 + cv + d
+t/v = v( av^2 + bv + c) + d
+t/v = v( v(av + b) + c) + d
+
+
+t = av^4 + bv^3 + cv^2 +dv
+***With this equation, can I get "v" by itself?***
+***Do I understand this?***

@@ -1,0 +1,20 @@
+Parity input
+
+101e
+010010o
+1e
+000e
+110100101o
+#
+
+Steganography input
+
+Programmer,
+I  would  like  to  see
+a  question
+mark.
+*
+Behold,  there is more to  me than you might
+think  when  you read  the first  time
+*
+Symbol   for   hydrogen

@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class ICPC1
+{
+	public static void main(String [] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		int lines = scan.nextInt();
+		for(int x=0; x<lines; x++)
+		{
+			int g = scan.nextInt();
+			int a = scan.nextInt();
+			int b = scan.nextInt();
+			int temp = 0;
+			for(int i=0; i<g-3; i++)
+			{
+				int c = scan.nextInt();
+				if((c != b+1)&&(temp==0))
+				{
+					if(i==0)
+					{
+						temp = i+2;
+					}
+					else
+					{
+						temp = i+3;	
+					}
+				}
+				b = c;
+			}
+			int d = scan.nextInt();
+			System.out.println(temp);
+		}
+	}
+}

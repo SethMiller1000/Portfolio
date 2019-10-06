@@ -1,0 +1,27 @@
+Reverse Rot Algorithm- Seth Miller
+
+Input:
+1. recieve string from user (ask for all caps) and number of rotations they want to make
+2. convert to all caps
+3. create alphabet variable with underscore and period
+4. reverse alphabet for new variable
+
+Process:
+5. reverse order of letters by separating each index
+6. move each index as many positions as the user indicated
+7. assign to variable
+
+Output:
+8. Display variable of encrypted string
+
+Tip: Choose programs that seem doable and play to your proficiencies.
+
+
+ICPC Archive Account
+Username: AlphaFalcon22
+Password: BePersistent247
+E-mail: Gmail
+
+Tips and Things to Do:
+Study Looping more and thoroughly
+You will need the book often to recall syntax
